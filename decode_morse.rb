@@ -1,3 +1,5 @@
+# decode_morse.rb
+
 @morse_code_dictionary = {
   '.-' => 'A',
   '-...' => 'B',
