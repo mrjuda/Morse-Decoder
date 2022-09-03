@@ -18,3 +18,4 @@ animal_2 = Animal.new(8)
 
 animal_1.speak
 animal_2.speak
+
