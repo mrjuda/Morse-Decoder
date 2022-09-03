@@ -15,12 +15,12 @@ class Ship
 end
 
 class Fighter < Ship
-  def fire_missile
-    # ADDITIONAL CODE
-  end
   ACCELERATION = 2
   def initialize
     super()
     @missiles = 10
+  end
+  def fire_missile
+    # ADDITIONAL CODE
   end
 end
