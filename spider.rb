@@ -8,6 +8,10 @@ class Spider < Animal
     @web_strength_level = web_strength_level
   end
 
+  def speak
+    '...'
+  end
+
   def make_a_web
     'www'
   end

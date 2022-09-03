@@ -33,11 +33,12 @@ class Animal
   attr_accessor :name
 
   def speak
-    if @type == 'dog'
-      'Woof, woof'
-    elsif @type == 'spider'
-      '...'
-    end
+    # if @type == 'dog'
+    #   'Woof, woof'
+    # elsif @type == 'spider'
+    #   '...'
+    # end
+    'grrrr'
   end
 end
 

@@ -8,6 +8,10 @@ class Dog < Animal
     @color = color
   end
 
+  def speak
+    'Woof, woof'
+  end
+
   def bring_a_stick
     'Here is your stick: --------'
   end
