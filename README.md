@@ -20,6 +20,5 @@ A solution for decoding morse code messages.
 - LinkedIn: [@desorguishny/](https://www.linkedin.com/in/desorguishny/ "Desor's Linkedin profile")
 - Twitter: [@DGuishny](https://twitter.com/DGuishny "Desor's Twitter profile")
 
-
 ## 📝License
 This project is [MIT](https://github.com/mrjuda/ruby-start/blob/groupwork/LICENSE) licensed.
