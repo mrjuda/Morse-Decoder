@@ -1,7 +1,7 @@
-bar = " my cool "
-foo = " string "
+bar = ' my cool '
+foo = ' string '
 baz = foo
-baz = baz.concat(" today ")
+baz = baz.concat(' today ')
 foo = bar
-bar = foo.concat(" yesterday #{baz}")
+bar = foo.concat(' yesterday #{baz}')
 puts bar
