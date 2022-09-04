@@ -4,6 +4,8 @@ require './remover'
 require './foods'
 
 class Animal
+  attr_accessor :name, :owner
+
   def initialize(type, number_of_legs, name = 'Unknown')
     @id = Random.rand(1..1000)
     @name = name
@@ -34,7 +36,6 @@ class Animal
   # attr_reader :name
   # attr_writer :name
   # The last 2 lines could be replaced by:
-  attr_accessor :name
 
   def speak
     # if @type == 'dog'
