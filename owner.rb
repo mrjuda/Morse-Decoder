@@ -13,5 +13,6 @@ class Owner
   # a method to add animals one by one
   def add_animal(animal)
     @animals.push(animal)
+    animal.owner = self
   end
 end
